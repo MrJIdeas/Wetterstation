@@ -1,0 +1,6 @@
+DELIMITER $$
+CREATE DEFINER=`<USERNAME>`@`%` PROCEDURE `get_stations`()
+BEGIN
+SELECT * FROM T_Stations;
+END$$
+DELIMITER ;
